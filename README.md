@@ -7,7 +7,7 @@ I've stumbled upon the topic of GUI development and found it highly interesting.
 Therefore, I decided to create these series of JFrames to both introduce myself and to improve my skill in GUI development.
 
 
-Login Page
+Login Page </br>
   -The login page includes... 
     1) an interactive background where it allows the user to create star constellations with just few clicks!
     2) clickable image icons to open webpages such as Facebook, Twitter, and Instagram.
