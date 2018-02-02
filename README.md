@@ -8,7 +8,7 @@ Therefore, I decided to create these series of JFrames to both introduce myself 
 
 
 ## Login Page </br>
-&nbsp&nbsp-The login page includes... 
+&nbsp&nbsp-The login page includes... </br>
 &nbsp;1) an interactive background where it allows the user to create star constellations with just few clicks! </br>
 &nbsp2) clickable image icons to open webpages such as Facebook, Twitter, and Instagram. </br>
 &nbsp3) a loging error message and resetting password textbox when there is a login error. </br>
