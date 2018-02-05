@@ -7,6 +7,8 @@ import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.prefs.Preferences;
+
 import javax.swing.*;
 
 public class main extends JFrame{
@@ -89,10 +91,7 @@ public class main extends JFrame{
 		subLogin = new JPanel();
 		subLogin.setPreferredSize(new Dimension(300,115));
 		subLogin.setOpaque(false);
-		JPanel fillerPanel = new JPanel();
-		fillerPanel.setPreferredSize(new Dimension(300,7));
-		fillerPanel.setOpaque(false);
-		subLogin.add(fillerPanel);
+		subLogin.add(filler(300,7));
 		JLabel username = new JLabel("<html><font color = 'white'>Username: </font></html>");
 		username.setFont(new Font("Lucida Blackletter", Font.PLAIN, 15));
 		subLogin.add(username);
@@ -111,10 +110,12 @@ public class main extends JFrame{
 				@Override
 				public void actionPerformed(ActionEvent arg0) {
 					if (userInp.getText().equals(userFinal)&&userInp.getText().equals(userFinal)&&passInp.getText().equals(passFinal)) {
+						pref.putBoolean(sent, true);
 						new wang();
 						dispose();
 					}
 					else {
+						pref.putBoolean(sent, false);
 						passInp.setText("");
 						warning.setText("<html><font color = 'white'>Incorrect username/password</font></html>");
 					}
@@ -125,14 +126,17 @@ public class main extends JFrame{
 				@Override
 				public void keyPressed(KeyEvent arg0) {
 					if (arg0.getKeyCode()==KeyEvent.VK_ENTER&&userInp.getText().equals(userFinal)&&passInp.getText().equals(passFinal)) {
+						pref.putBoolean(sent, true); // put this after new dispose()... does it work
 						new wang();
 						dispose();
 					}
 					else if (arg0.getKeyCode()==KeyEvent.VK_ENTER && userInp.getText().equals(userFinal)==false){
+						pref.putBoolean(sent, false);
 						passInp.setText("");
 						warning.setText("<html><font color = 'white'>Incorrect username/password</font></html>");
 					}
 					else if (arg0.getKeyCode()==KeyEvent.VK_ENTER && passInp.getText().equals(passFinal)==false) {
+						pref.putBoolean(sent, false);
 						passInp.setText("");
 						warning.setText("<html><font color = 'white'>Incorrect username/password</font></html>");
 					}
@@ -152,14 +156,17 @@ public class main extends JFrame{
 				@Override
 				public void keyPressed(KeyEvent arg0) {
 					if (arg0.getKeyCode()==KeyEvent.VK_ENTER&&userInp.getText().equals(userFinal)&&passInp.getText().equals(passFinal)) {
+						pref.putBoolean(sent, true);
 						new wang();
 						dispose();
 					}
 					else if (arg0.getKeyCode()==KeyEvent.VK_ENTER && userInp.getText().equals(userFinal)==false){
+						pref.putBoolean(sent, false);
 						passInp.setText("");
 						warning.setText("<html><font color = 'white'>Incorrect username/password</font></html>");
 					}
 					else if (arg0.getKeyCode()==KeyEvent.VK_ENTER && passInp.getText().equals(passFinal)==false) {
+						pref.putBoolean(sent, false);
 						passInp.setText("");
 						warning.setText("<html><font color = 'white'>Incorrect username/password</font></html>");
 					}
@@ -172,14 +179,33 @@ public class main extends JFrame{
 				}
 				
 			});
-		JPanel fillerPanel2 = new JPanel();
-		fillerPanel2.setPreferredSize(new Dimension(210,5));
-		fillerPanel2.setOpaque(false);
-		subLogin.add(fillerPanel2);
+		JCheckBox remBox = new JCheckBox("<html><font color = 'white'>Remember Me</font></html>");
+		remBox.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				if(remBox.isSelected()) {
+					pref.putBoolean(check, true);
+				}
+				else {
+					pref.putBoolean(check, false);
+				}
+			}
+			
+		});
+		if(pref.getBoolean(check, false)==true) {
+			remBox.setSelected(true);
+		}
+		if(pref.getBoolean(check, false)==true && pref.getBoolean(sent, true)) {
+			userInp.setText("cheeseninja");
+			passInp.setText("123");
+		}
+		subLogin.add(remBox);
 		subLogin.add(enter);
 		subLogin.add(warning);
 		return subLogin;
 	}
+
 	private class DrawingStars implements MouseMotionListener,MouseListener{
 		public void mouseClicked(MouseEvent e) {
 			points.add(new Point(e.getX(), e.getY()));
@@ -279,6 +305,9 @@ public class main extends JFrame{
 		private JPanel subLogin;
 	private JPanel header;
 	private ArrayList<Point> points = new ArrayList<Point>();
-;
+	private Preferences pref = Preferences.userRoot().node(this.getClass().getName());
+		String check = "check";
+		String sent = "sent";
+
 	
 }
