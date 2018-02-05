@@ -200,7 +200,9 @@ public class main extends JFrame{
 			userInp.setText("cheeseninja");
 			passInp.setText("123");
 		}
+		subLogin.add(filler(77,5));
 		subLogin.add(remBox);
+		subLogin.add(filler(5,5));
 		subLogin.add(enter);
 		subLogin.add(warning);
 		return subLogin;
