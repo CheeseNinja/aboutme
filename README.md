@@ -4,7 +4,7 @@ Every since I had taken the APCS course, I found an evergrowing passion for comp
 The course helped me develop a basic foundation for Java and I extended this to other categories worthwhile to learn.
 I've stumbled upon the topic of GUI development and found it highly interesting. 
 
-Therefore, I decided to create these series of JFrames to both introduce myself and to improve my skill in GUI development.</br>
+Therefore, I decided to create these series of JFrames to both introduce myself and to improve my skill in GUI development.</br></br>
 <strong>Note: </strong> main.java found in GUI/src/profile is still in development! wang.java is merely a substitution at this point! It is also undergoing construction.
 
 
