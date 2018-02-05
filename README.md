@@ -14,5 +14,6 @@ Therefore, I decided to create these series of JFrames to both introduce myself 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) a loging error message and resetting password textbox when there is a login error. </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) the use of the preference API to store memory of the checkbox and remembers the user's input of username/password when enetered correctly. </br>
 
-<img width="351" alt="screen shot 2018-01-27 at 12 01 58 pm" src="https://user-images.githubusercontent.com/26124862/35711971-c498c162-078d-11e8-866b-2769465fe859.png">
+<img width="351" alt="screen shot 2018-02-04 at 8 46 48 pm" src="https://user-images.githubusercontent.com/26124862/35785319-946dda1a-09ed-11e8-9601-ce7ddd709189.png">
+
 
