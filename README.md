@@ -12,5 +12,7 @@ Therefore, I decided to create these series of JFrames to both introduce myself 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) an interactive background where it allows the user to create <bold>star constellations </bold>with just few clicks! </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) clickable image icons to open webpages such as Facebook, Twitter, and Instagram. </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) a loging error message and resetting password textbox when there is a login error. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) the use of the preference API to store memory of the checkbox and remembers the user's input of username/password when enetered correctly. </br>
+
 <img width="351" alt="screen shot 2018-01-27 at 12 01 58 pm" src="https://user-images.githubusercontent.com/26124862/35711971-c498c162-078d-11e8-866b-2769465fe859.png">
 
