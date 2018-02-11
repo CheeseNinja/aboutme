@@ -8,13 +8,8 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 
 /*
- * Wow, I am in disbelief. 
- * However, we are going to recreate it but BETTER.
- * This is not the end. I can do this!
- * 
  * @Author: _Darren_Wang
  * @Date:_January_22_2018
- * Draw with graphics g inside JPanel to create image
  */
 public class wang extends JFrame{
 	public wang() {
