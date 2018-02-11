@@ -20,5 +20,12 @@ Therefore, I decided to create these series of JFrames to both introduce myself 
 <strong>Password: </strong>123 </br>
 <img width="350" alt="screen shot 2018-02-04 at 8 59 13 pm" src="https://user-images.githubusercontent.com/26124862/35785451-75b1e64c-09ee-11e8-8c64-69142d480d08.png">
 
+## Cropping Image Panel (healthyeating) </br>
+-Properties and capabilities of the cropping panel protocol ... </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) allows the user to choose an image on their computer. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) allows the user to choose the size of their cropped picture with an interactive alpha blue colored rectangle. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) creates a folder with the cropped image. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4) has a refresh button for an instant result of uploading the cropped image onto the JLabel. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FLAWS: </strong>None of the files or folders may be moved or else the program will NOT run. The only image you can move and delete is the picture that you chose as the main picture to be cropped.
 
 
