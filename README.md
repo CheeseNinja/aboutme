@@ -23,9 +23,13 @@ Therefore, I decided to create these series of JFrames to both introduce myself 
 ## Cropping Image Panel (healthyeating) </br>
 -Properties and capabilities of the cropping panel protocol ... </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) allows the user to choose an image on their computer. </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) allows the user to choose the size of their cropped picture with an interactive alpha blue colored rectangle. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) allows the user to choose the size of their cropped picture with an interactive alpha blue colored rectangle. There is also a maximum width and height for the cropped image which can be controlled with the JTextField (must press the "enter" button to update the crop size).</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) creates a folder with the cropped image. </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4) has a refresh button for an instant result of uploading the cropped image onto the JLabel. </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FLAWS: </strong>None of the files or folders may be moved or else the program will NOT run. The only image you can move and delete is the picture that you chose as the main picture to be cropped.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4) remembers the uploaded image so that when the program is disposed and reopened, the updated croppped image is present on the display panel.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5) has a refresh button for an instant result of uploading the cropped image onto the JLabel. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>FLAWS: </strong>None of the files or folders may be moved or else the program will NOT run. The only image you can move and delete is the picture that you chose as the main picture to be cropped. This program is also not efficeint with much larger images. </br>
+<strong>Next Steps: </strong> Have the cropped image saved in the program itself so that the user does not have to have random folders and images laying around in their desktop. This would also be useful for USB drive users since they would not have to constantly upload their cropped picture with every unique computers they use. 
+
+<img width="858" alt="screen shot 2018-02-11 at 12 04 50 pm" src="https://user-images.githubusercontent.com/26124862/36075966-d82f072a-0f23-11e8-989f-1d7f7c55b192.png">
 
 
