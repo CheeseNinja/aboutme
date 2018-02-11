@@ -89,7 +89,9 @@ public class profileAlter extends JFrame{
 	 System.out.println("hi");
  }
  public static void main(String[] args) {
-	 profileAlter al = new profileAlter();
-	 
+	SwingUtilities.invokeLater(new Runnable() {
+		public void run() {
+			profileAlter al = new profileAlter();
+	}	 
  }
 }
