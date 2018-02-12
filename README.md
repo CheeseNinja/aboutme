@@ -1,5 +1,5 @@
-<strong>UNDERGOING MAINTENANCE</strong> </br>
-The files cannot be downloaded because there is an error of retrieving the pathway of the images and using it in the program. You can manually change the pathway if you wish to continue.
+<strong>DOWNLOAD</strong> </br>
+You can download the folowing projects within the folder "jarfile". Enjoy!
 # About Me GUI
 
 Every since I had taken the APCS course, I found an evergrowing passion for computer science.
