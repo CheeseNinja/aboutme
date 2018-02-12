@@ -1,5 +1,5 @@
 <strong>DOWNLOAD</strong> </br>
-You can download the folowing projects within the folder "jarfile". Enjoy!
+You can download the following projects within the folder "jarfile". Enjoy!
 # About Me GUI
 
 Every since I had taken the APCS course, I found an evergrowing passion for computer science.
