@@ -20,6 +20,7 @@ public class profileAlter extends JFrame {
 	private JFrame editor;
 	private Preferences prefs = Preferences.userRoot().node(this.getClass().getName());
 	private int alteratingInt = 1;
+	private boolean allow = false;
 
 	public profileAlter() {
 		components();
@@ -51,6 +52,7 @@ public class profileAlter extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if (fc.showOpenDialog(addpic) == JFileChooser.APPROVE_OPTION) {
+					allow = true;
 					picLocation = fc.getSelectedFile().getAbsolutePath();
 					ImageIcon picture = new ImageIcon(picLocation);
 					File fileImage = new File(picLocation);
@@ -63,15 +65,19 @@ public class profileAlter extends JFrame {
 
 		JButton refresh = new JButton("refresh");
 		refresh.addActionListener(new ActionListener() {
-
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				if (alteratingInt % 2 != 0) {
-					pic.setIcon(new ImageIcon(System.getProperty("user.home") + "/Desktop/croppedimages/cropped2.jpg"));
-					alteratingInt++;
-				} else {
-					pic.setIcon(new ImageIcon(System.getProperty("user.home") + "/Desktop/croppedimages/cropped.jpg"));
-					alteratingInt++;
+				if (allow) {
+
+					if (alteratingInt % 2 != 0) {
+						pic.setIcon(
+								new ImageIcon(System.getProperty("user.home") + "/Desktop/croppedimages/cropped2.jpg"));
+						alteratingInt++;
+					} else {
+						pic.setIcon(
+								new ImageIcon(System.getProperty("user.home") + "/Desktop/croppedimages/cropped.jpg"));
+						alteratingInt++;
+					}
 				}
 			}
 
