@@ -1,5 +1,3 @@
-package profile;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
