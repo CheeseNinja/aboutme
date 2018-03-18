@@ -24,7 +24,7 @@ public class Weather_Panel extends JPanel{
 	private static final long serialVersionUID = 1L;
 	
 	private Timer timer = null;
-	private String temperature = "Loading...", API_KEY = "03c86e627b8ae03526e2c06db0500ad5";
+	private String temperature = "Loading...", API_KEY = "XXXXXXXXXX";
 	private double latitude = 40.87833, longitude = -73.89083, dailyHigh = 0.0, dailyLow = 0.0, apparent_Temp = 0.0;
 	private boolean recTrue = false;
 	private Font title_font = new Font("Helvetica Bold", Font.BOLD, 18);
@@ -81,7 +81,7 @@ public class Weather_Panel extends JPanel{
 			InputStream is = con.getInputStream();
 			BufferedReader read = new BufferedReader(new InputStreamReader(is));
 			String line = read.readLine();
-			temperature = line.substring(line.indexOf("\"temperature\"")+14,line.indexOf("\"apparentTemperature\"")-1)+" °C";
+			temperature = line.substring(line.indexOf("\"temperature\"")+14,line.indexOf("\"apparentTemperature\"")-1)+" Â°C";
 			apparent_Temp = Double.parseDouble(line.substring(line.indexOf("apparentTemperature")+22,line.indexOf("\"dewPoint\"")-1));
 			String highlow_text = line.substring(line.indexOf("\"daily\""));
 			dailyHigh = Double.parseDouble(highlow_text.substring(highlow_text.indexOf("\"temperatureHigh\"")+18,highlow_text.indexOf("\"temperatureHighTime\"")-1));
