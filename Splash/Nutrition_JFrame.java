@@ -24,7 +24,7 @@ public class Nutrition_JFrame extends JFrame{
 	
 	private JPanel nutr_panel;
 	private Font title_font = new Font("Helvetica Bold", Font.BOLD, 25);
-	private String name = "No data", water="No data", calories="No data", protein="No data", sodium="No data", fat="No data", API_KEY="6l5HlpQdoRU0FzsijrozdHm4h0mOAa8pfzPYFlYV", num="0", text="";
+	private String name = "No data", water="No data", calories="No data", protein="No data", sodium="No data", fat="No data", API_KEY="XXXXXXXXXX", num="0", text="";
 
 		public Nutrition_JFrame(String num_) {
 			num = num_;
