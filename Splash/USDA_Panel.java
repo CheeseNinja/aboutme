@@ -25,7 +25,7 @@ import javax.swing.*;
 
 public class USDA_Panel extends JPanel{
 	
-	private String food, food_ground = "", API_KEY="6l5HlpQdoRU0FzsijrozdHm4h0mOAa8pfzPYFlYV", totalstring = "";
+	private String food, food_ground = "", API_KEY="XXXXXXXXXXX", totalstring = "";
 ;
 	private JPanel search_panel;
 	private ArrayList<FoodItem> food_list, food_list2;
