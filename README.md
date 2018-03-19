@@ -2,7 +2,7 @@
 You can download the following projects within the folder "jarfile". 
 # About Me GUI
 
-Every since I had taken the APCS course, I found an evergrowing passion for computer science.
+Ever since I had taken the APCS course, I found an evergrowing passion for computer science.
 The course helped me develop a basic foundation for Java and I extended this to other categories worthwhile to learn.
 I've stumbled upon the topic of GUI development and found it highly interesting. 
 
