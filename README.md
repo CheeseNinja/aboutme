@@ -19,7 +19,7 @@ The login page includes... </br>
 
 <strong>Username: </strong>cheeseninja </br>
 <strong>Password: </strong>123 </br>
-<img width="350" alt="screen shot 2018-02-04 at 8 59 13 pm" src="https://user-images.githubusercontent.com/26124862/35785451-75b1e64c-09ee-11e8-8c64-69142d480d08.png">
+<img width="350" alt="screen shot 2018-03-18 at 11 47 51 pm" src="https://user-images.githubusercontent.com/26124862/37577181-e053e2e6-2b06-11e8-87a8-ca906bc0f2fb.png">
 
 ## Cropping Image Panel (healthyeating) </br>
 -Properties and capabilities of the cropping panel protocol ... </br>
