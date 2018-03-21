@@ -38,9 +38,12 @@ The login page includes... </br>
 -Properties and capabilities of Splash! </br>
 1) allows the user to easily see the weather and temperature of inputted latitude and longitude. </br>
 2) allows the user to search up certain nutrition values of various foods in certain categories. </br>
+
 *Special thanks to Dark Sky API and United States Department of Agriculture for the amazing data!* </br>
+
 <strong>Citation: </strong> U.S. Department of Agriculture, Agricultural Research Service. 20xx. USDA Branded Food Products Database . Nutrient Data Laboratory Home Page, http://ndb.nal.usda.gov </br>
 
+![spash](https://user-images.githubusercontent.com/26124862/37693982-a917470c-2c99-11e8-8c3d-3992cc9b4f61.JPG)
 
 
 
