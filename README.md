@@ -43,7 +43,8 @@ The login page includes... </br>
 
 <strong>Citation: </strong> U.S. Department of Agriculture, Agricultural Research Service. 20xx. USDA Branded Food Products Database . Nutrient Data Laboratory Home Page, http://ndb.nal.usda.gov </br>
 
-![spash](https://user-images.githubusercontent.com/26124862/37693982-a917470c-2c99-11e8-8c3d-3992cc9b4f61.JPG)
+![splash](https://user-images.githubusercontent.com/26124862/37718781-e4a2c174-2cf9-11e8-9ce4-1b0f4f254b03.JPG)
+
 
 
 
