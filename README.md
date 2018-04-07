@@ -3,11 +3,7 @@ You can download the following projects within the folder "jarfile". </br>
 For Splash!, you will need to get your own API keys from USDA and Dark Sky.
 # About Me GUI
 
-Ever since I had taken the APCS course, I found an evergrowing passion for computer science.
-The course helped me develop a basic foundation for Java and I extended this to other categories worthwhile to learn.
-I've stumbled upon the topic of GUI development and found it highly interesting. 
-
-Therefore, I decided to create these series of JFrames to both introduce myself and to improve my skill in GUI development.</br>
+Few random GUIs using javax.swing and javafx to improve my skill in GUI development.</br>
 
 ##Splash_2
 
