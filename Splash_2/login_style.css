@@ -1,0 +1,31 @@
+#user-pass-field{
+	-fx-background-color: #fe8c82;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffffff;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-border-insets: 0; /*extra outside border */
+    -fx-min-height: 0;
+}
+#bacon-button{
+	-fx-padding: 1 1 1 1;
+	-fx-background-color: #8f0c12;
+}
+#ramen-button{
+	-fx-padding: 1 1 1 1;
+	-fx-background-color: #ffc90e;
+}
+.button:hover {
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+}
+#yolk-image:hover{
+	-fx-effect: dropshadow( gaussian , rgba(255,242,10,0.4) , 12,5,0,1 ); 
+	-fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+#pause-button{
+	-fx-padding: 0, 0, 0, 0;
+	-fx-background-color: #000000;
+}
