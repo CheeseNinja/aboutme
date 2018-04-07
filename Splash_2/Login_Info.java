@@ -18,7 +18,7 @@ public class Login_Info {
 	  */
 	private Calendar def_cal;
 	private String today_date, day_of_the_week, today_time, day_timePhrase, today_minute_string, today_hour_string, //time
-				API_KEY = "03c86e627b8ae03526e2c06db0500ad5", latitude = "40.740790", longitude = "-73.888077",		//weather
+				API_KEY = "XXXXXXX", latitude = "38.897957", longitude = "-77.036560",		//weather
 				temperature, apparent_Temp, dailyHigh, dailyLow;
 	private String[] strDays = new String[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}, weather_arr = new String[4];
 	private boolean isAM = false;
@@ -105,12 +105,12 @@ public class Login_Info {
 			BufferedReader read = new BufferedReader(new InputStreamReader(is));
 			String line = read.readLine();
 			
-			temperature = line.substring(line.indexOf("\"temperature\"")+14,line.indexOf("\"apparentTemperature\"")-1) + " 캟";
-			apparent_Temp = line.substring(line.indexOf("apparentTemperature")+21,line.indexOf("\"dewPoint\"")-1) + " 캟";
+			temperature = line.substring(line.indexOf("\"temperature\"")+14,line.indexOf("\"apparentTemperature\"")-1) + " 째F";
+			apparent_Temp = line.substring(line.indexOf("apparentTemperature")+21,line.indexOf("\"dewPoint\"")-1) + " 째F";
 			
 			String highlow_text = line.substring(line.indexOf("\"daily\""));
-			dailyHigh = highlow_text.substring(highlow_text.indexOf("\"temperatureHigh\"")+18,highlow_text.indexOf("\"temperatureHighTime\"")-1) + " 캟";
-			dailyLow = highlow_text.substring(highlow_text.indexOf("\"temperatureLow\"")+17,highlow_text.indexOf("\"temperatureLowTime\"")-1) + " 캟";
+			dailyHigh = highlow_text.substring(highlow_text.indexOf("\"temperatureHigh\"")+18,highlow_text.indexOf("\"temperatureHighTime\"")-1) + " 째F";
+			dailyLow = highlow_text.substring(highlow_text.indexOf("\"temperatureLow\"")+17,highlow_text.indexOf("\"temperatureLowTime\"")-1) + " 째F";
 			
 			weather_arr[0] = temperature; weather_arr[1] = apparent_Temp; weather_arr[2] = dailyHigh; weather_arr[3] = dailyLow;
 		} catch (MalformedURLException e) {
