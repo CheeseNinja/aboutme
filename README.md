@@ -9,6 +9,7 @@ I've stumbled upon the topic of GUI development and found it highly interesting.
 
 Therefore, I decided to create these series of JFrames to both introduce myself and to improve my skill in GUI development.</br>
 
+##Splash_2
 
 ## Login Page </br>
 The login page includes... </br>
