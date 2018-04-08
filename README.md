@@ -7,6 +7,7 @@ Few random GUIs using javax.swing and javafx to improve my skill in GUI developm
 
 ## Splash_2
 <a href="https://imgflip.com/gif/27y27k"><img src="https://i.imgflip.com/27y27k.gif" title="made at imgflip.com"/></a>
+
 ## Login Page </br>
 The login page includes... </br>
 1) an interactive background where it allows the user to create <span>star constellations </span>with just few clicks! </br>
