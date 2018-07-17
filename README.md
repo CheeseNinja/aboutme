@@ -1,7 +1,5 @@
 <strong>DOWNLOAD</strong> </br>
-You can download the following projects within the folder "jarfile". </br>
 For Splash!, you will need to get your own API keys from USDA and Dark Sky. </br>
-Upcoming Android App for USDA Nutrition! There will be be a personal diet check as well!
 # About Me GUI
 
 Few random GUIs using javax.swing and javafx to improve my skill in GUI development.</br>
