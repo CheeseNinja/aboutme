@@ -1,4 +1,3 @@
-<strong>DOWNLOAD</strong> </br>
 For Splash!, you will need to get your own API keys from USDA and Dark Sky. </br>
 # About Me GUI
 
