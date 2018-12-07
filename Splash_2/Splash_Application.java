@@ -23,8 +23,8 @@ import javafx.scene.control.*;
 
 public class Splash_Application extends Application {
 
-	private String[] account = { "darren05", "splashadmin" }, weather_arr;
-	private final String img_loc = "C:/Users/Wendy/Desktop/eclipse/Splash_2/images/";
+	private String[] account = { "username", "password" }, weather_arr;
+	private final String img_loc = "XXXXXX";
 	private TextField username_field;
 	private PasswordField password_field;
 	private Preferences [] prefs_array;
